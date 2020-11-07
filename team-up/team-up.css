@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.315);
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+#header-logo img{
+    display: block;
+    max-width:100px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.menu li {
+    color: #fff6f6;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 40px;
+    list-style-type: none;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 90%;
+    padding-top: 3px;
+    border-top: 5px solid transparent; 
+}
+#login{
+    float: right;
+}
+.menu a:hover{
+    color: white;
+    text-shadow:3px 3px 15px rgb(0, 110, 255);
+    border-top: 5px solid rgb(115, 115, 247);  
+}
+.footer{    
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    /* margin-top:50vh; */
+    
+}
+#footer-logo{
+    width: 80%;
+    background-color: black;
+    height: 50px;
+    margin-top: 0px;  
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid grey;
+    margin-left: 10%;
+    z-index: -999;
+}
+#footer-logo a{
+    display: block;
+    font-size: 30px;
+    float: left;
+    color: grey;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#footer-logo a:hover{
+    color: white;
+}
+#game-logo{
+    width: 50%;
+    /* background-color: red; */
+    height: 250px;
+    margin-top: 10px;
+    overflow: auto;
+    color: white;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    padding: 50px 0px 40px 280px;
+    box-sizing: border-box;
+}
+#game-logo img{
+    display: block;
+    max-width:250px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+}
+#game-logo2{
+    width: 40%;
+    padding-top: 30px;
+    height: 300px;
+    margin-top: 30px;
+    color: white;
+    margin-top: 20px;
+    float: left;
+    
+}
+#game-logo2 li{
+    display: block;
+    list-style-type: none;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin: 0px 0px 0px 20px;
+    border-left: 1px solid white;
+    padding: 2.5px 0px 2.5px 3px;
+    box-sizing: content-box;
+    text-align: center;
+    
+}
+#game-logo2 a{
+    color: grey;
+    display: block;
+    text-decoration: none;
+}
+#game-logo2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#game-logo2 p{
+    padding-top: 30px;
+    padding-left: 20px; 
+    margin-top: 20px; 
+}
+#game-logo2 img{
+    display: block;
+    max-width: auto;
+    max-height: auto;
+    width:120px;
+    height:100px;
+    float: left;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.team-up-container{
+    background-image: url('https://uploadstatic-sea.mihoyo.com/contentweb/20200917/2020091709413333053.png');
+    width: 100%;
+    height: 100vh;
+}
+#main-container{
+    width: 90%;
+    height: 80vh;
+    position: relative;
+    top: 18%;
+    left:5%;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: content-box;
+    
+}
+#charater-list{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background:red;
+    border: 1px solid black;
+    
+}
+#charater-list #title{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background:rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+}
+#charater-list #type{
+    position: absolute;
+    width: 20%;
+    height: 95%;
+    background: rgb(0 0 0 / 90%);;
+    top: 5%;
+}
+#type ul li{
+    display: block;
+    height:81.5px;
+    list-style-type: none;
+    border: 2px solid black;
+}
+#type ul li:hover{
+    border: 3px solid white;
+}
+#type ul li img{
+    display: block;
+    max-width:100px;
+    max-height:80px;
+    width: auto;
+    height: auto;  
+    padding-top: 15px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    color: black;
+    
+}
+#charater{
+    position: absolute;
+    width: 80%;
+    height: 95%;
+    background:  rgb(0 0 0 / 90%);
+    top:5%;
+    left:20%;
+    overflow: hidden;
+}
+#charater ul li{
+    display: block;
+    height:81.5px;
+    list-style-type: none;
+    border: 2px solid black;
+}
+
+.char{
+    display: block;
+    max-width: 130px;
+    max-height:80px;
+    width: auto;
+    height: auto;  
+        margin-top: 5px;
+        margin-left: 30px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid black;
+    
+}
+.char:hover{
+    border: 3px solid white;
+    transition: ease-in-out 0.5;
+}
+#discription{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background: red;
+    left: 60%;
+    border:1px solid black;
+    
+}
+#generate{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    
+    font-size: 30px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#generate-btn, #reset-btn{
+    font-size: 50pxb;
+}
+#bonus {
+    position: absolute;
+    top:5%;
+    width: 100%;
+    height: 48%;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid black;
+}
+#react {
+    position: absolute;
+    top:53%;
+    width: 100%;
+    height: 47%;
+    background:rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.active{
+    border: 3px solid white;
+    
+}

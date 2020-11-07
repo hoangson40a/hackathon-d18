@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.315);
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+#header-logo img{
+    display: block;
+    max-width:100px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.menu li {
+    color: #fff6f6;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 40px;
+    list-style-type: none;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 90%;
+    padding-top: 3px;
+    border-top: 5px solid transparent; 
+}
+#login{
+    float: right;
+}
+.menu a:hover{
+    color: white;
+    text-shadow:3px 3px 15px rgb(0, 110, 255);
+    border-top: 5px solid rgb(115, 115, 247);  
+}
+.footer{    
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    /* margin-top:50vh; */
+    
+}
+#footer-logo{
+    width: 80%;
+    background-color: black;
+    height: 50px;
+    margin-top: 0px;  
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid grey;
+    margin-left: 10%;
+    z-index: -999;
+}
+#footer-logo a{
+    display: block;
+    font-size: 30px;
+    float: left;
+    color: grey;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#footer-logo a:hover{
+    color: white;
+}
+#game-logo{
+    width: 50%;
+    /* background-color: red; */
+    height: 250px;
+    margin-top: 10px;
+    overflow: auto;
+    color: white;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    padding: 50px 0px 40px 280px;
+    box-sizing: border-box;
+}
+#game-logo img{
+    display: block;
+    max-width:250px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+}
+#game-logo2{
+    width: 40%;
+    padding-top: 30px;
+    height: 300px;
+    margin-top: 30px;
+    color: white;
+    margin-top: 20px;
+    float: left;
+    
+}
+#game-logo2 li{
+    display: block;
+    list-style-type: none;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin: 0px 0px 0px 20px;
+    border-left: 1px solid white;
+    padding: 2.5px 0px 2.5px 3px;
+    box-sizing: content-box;
+    text-align: center;
+    
+}
+#game-logo2 a{
+    color: grey;
+    display: block;
+    text-decoration: none;
+}
+#game-logo2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#game-logo2 p{
+    padding-top: 30px;
+    padding-left: 20px; 
+    margin-top: 20px; 
+}
+#game-logo2 img{
+    display: block;
+    max-width: auto;
+    max-height: auto;
+    width:120px;
+    height:100px;
+    float: left;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.main-news{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://upload-os-bbs.mihoyo.com/upload/2020/07/05/1013950/46e5b8f1a541f3b4a71dcd20abfc8db6_7702721067866452443.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg');
+    overflow: hidden;
+    padding-top:150px;
+    padding-left: 150px;
+    background-repeat: none;
+    background-size: cover;
+    
+}
+.main-news div{
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.699);
+    margin-right: 20px;
+    border-radius: 2%;
+}
+.main-news .img-div{
+    margin: 20px 25px;   
+    width: 350px ;
+    height: 200px;   
+    overflow: hidden;
+}
+.main-news img{
+    max-width: 350px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    transition-duration: 0.5s;
+    
+}
+.main-news img:hover {
+    transform: scale(1.2);
+        -webkit-transform: scale(1.2); 
+        -moz-transform: scale(1.2); 
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+    cursor: pointer; 
+}
+.main-news a{
+    text-decoration: none;
+}
+.main-news h2{
+    margin-bottom: 10px;
+    margin-left:25px;
+    margin-right: 15px;
+    color: white;
+    line-height: 25px;
+}
+.main-news p{
+    text-decoration: none;
+    margin-left:25px;
+    margin-right: 15px;
+    color: white;
+    line-height: 25px;
+}
+.news{
+    width: 100%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    padding: 50px 80px;
+    
+}
+.news-dis{
+    width: 90%;
+    height: 230px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 1%;
+    display: none;
+}
+.news-dis:hover{
+    border:3px solid rgb(139, 139, 139);
+    box-sizing: border-box;
+}
+.news-dis img{
+    display: block;
+    max-width: 300px;
+    max-height: 250px;
+    height: auto;
+    width: auto;
+    transition-duration: 0.5s;
+    padding: 20px 30px;
+    position: absolute;
+    box-sizing: border-box;
+}
+.news-dis h2 {
+    display: block;
+    float: left;
+    position: absolute;
+    top:40px;
+    left: 350px;
+    color: rgb(94, 94, 94);
+}
+.news-dis p{
+    display: block;
+    float: left;
+    position: absolute;
+    top:90px;
+    left: 355px;
+    color:  rgb(94, 94, 94);
+}
+.btn{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(82, 81, 81);
+    color: white;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 1.5%;
+    text-align: center;
+    padding-top: 10px;   
+}
+.btn:hover{
+    background-color:rgb(134, 133, 133) ;
+}
+.active{
+    display: block;
+    
+}
